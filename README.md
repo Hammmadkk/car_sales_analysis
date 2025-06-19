@@ -75,30 +75,29 @@ The project uses multiple plot types to explore the dataset:
    cd car-sales-analysis
 
 Create and activate a virtual environment:
-
 bash
 Copy
 Edit
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate (on Windows)
-Install dependencies:
 
+
+Install dependencies:
 bash
 Copy
 Edit
 pip install -r requirements.txt
-Launch the Jupyter Notebook:
 
+
+Launch the Jupyter Notebook:
 bash
 Copy
 Edit
 jupyter notebook
 Or open directly in VS Code and run all cells.
 
+
 📁 Folder Structure
-bash
-Copy
-Edit
 car-sales-analysis/
 │
 ├── data/
@@ -108,6 +107,8 @@ car-sales-analysis/
 ├── graph_observations.md           # Auto-generated insights
 ├── README.md                       # Project documentation
 └── requirements.txt                # Python dependencies
+
+
 🤝 Contributions
 Feel free to fork the project, raise issues, or suggest improvements!
 Let’s make data more insightful, one chart at a time 🚀
