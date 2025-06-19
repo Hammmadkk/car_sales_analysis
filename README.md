@@ -74,7 +74,45 @@ The project uses multiple plot types to explore the dataset:
    git clone https://github.com/yourusername/car-sales-analysis.git
    cd car-sales-analysis
 
+Create and activate a virtual environment:
 
-📬 Contact
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate (on Windows)
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Launch the Jupyter Notebook:
+
+bash
+Copy
+Edit
+jupyter notebook
+Or open directly in VS Code and run all cells.
+
+📁 Folder Structure
+bash
+Copy
+Edit
+car-sales-analysis/
+│
+├── data/
+│   └── car_sales_data.csv          # Dataset file
+│
+├── car_sales_analysis.ipynb        # Jupyter notebook (main analysis)
+├── graph_observations.md           # Auto-generated insights
+├── README.md                       # Project documentation
+└── requirements.txt                # Python dependencies
+🤝 Contributions
+Feel free to fork the project, raise issues, or suggest improvements!
+Let’s make data more insightful, one chart at a time 🚀
+
+
+
 Made with ❤️ by Hammad Hayat Khan
 📧 hammadhayat16@gmail.com | 💼https://www.linkedin.com/in/hammad-hayat-khan/| 🌐 https://github.com/Hammmadkk
